@@ -29,8 +29,9 @@ int toGrayScale(int *r, int *g, int *b, Mode mode) {
     *r = *g = *b = (0.21 * *r + 0.72 * *g + 0.07 * *b);
   }
   return No_Error;
-  
 }
+
+int roundedValue(int );
 
 int toSepia(int *r, int *g, int *b) {
   //TODO: implement
